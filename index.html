@@ -76,7 +76,8 @@
     transition: opacity 0.15s;
   }
   .header-icons a:hover { opacity: 0.7; text-decoration: none; }
-  .header-icons svg { width: 28px; height: 28px; }
+  .header-icons svg { width: 24px; height: 24px; }
+  .header-icons .pipe { color: var(--border); font-size: 1.2rem; font-weight: 300; user-select: none; }
   .icon-github { color: #1a1a1a; }
   [data-theme="dark"] .icon-github { color: #e5e5e5; }
   .icon-x { color: #000000; }
@@ -96,7 +97,7 @@
   }
   .theme-btn:hover { color: var(--text); }
   .theme-btn svg { width: 20px; height: 20px; }
-  .icon-scholar svg { width: 28px; height: 28px; }
+  .icon-scholar svg { width: 24px; height: 24px; }
 
   .divider {
     border: none;
@@ -244,21 +245,20 @@
 <div class="header">
   <h1>Dhiraj Salunkhe</h1>
   <div class="header-icons">
-    <!-- LinkedIn (brand blue) -->
     <a href="https://linkedin.com/in/dhirajs10" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
       <svg viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
     </a>
-    <!-- GitHub (black / white in dark mode) -->
+    <span class="pipe">|</span>
     <a href="https://github.com/dhirajS1012" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub" class="icon-github">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.21 11.42c.6.11.82-.26.82-.58v-2c-3.34.73-4-1.6-4-1.6-.55-1.38-1.34-1.75-1.34-1.75-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.31 3.49 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.47-1.33-5.47-5.93a4.65 4.65 0 011.24-3.22 4.32 4.32 0 01.12-3.18s1-.32 3.3 1.23a11.5 11.5 0 016 0c2.3-1.55 3.3-1.23 3.3-1.23a4.32 4.32 0 01.12 3.18 4.65 4.65 0 011.24 3.22c0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
     </a>
-    <!-- X (brand black) -->
+    <span class="pipe">|</span>
     <a href="https://x.com/dhirajs1012" target="_blank" rel="noopener" aria-label="X" title="X" class="icon-x">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
     </a>
-    <!-- Google Scholar (brand blue) -->
+    <span class="pipe">|</span>
     <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar" class="icon-scholar">
-      <svg viewBox="0 0 24 24" width="28" height="28" fill="#4285F4"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+      <svg viewBox="0 0 24 24" fill="#4285F4"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
     </a>
   </div>
 </div>
